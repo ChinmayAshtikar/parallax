@@ -48,6 +48,19 @@
             animation: marquee 20s linear infinite;
         }
 
+        .p-item5 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10000%;
+            height: 100%;
+            content: '';
+            background: url("imges/fog_2.png") repeat-x;
+            background-size: contain;
+            background-position: center;
+            animation: marquee 20s linear infinite;
+        }
+
         •p-item4::before{
             position: absolute;
             top: 0;
@@ -71,6 +84,15 @@
             }
         }
         .container{
+            position: relative;
+            z-index: 1;
+            max-width: 1140px;
+            margin: 0 auto;
+            margin-top: 100vh;
+            margin-left: -100px;
+        }
+
+        .container-new{
             position: relative;
             z-index: 1;
             max-width: 1140px;
